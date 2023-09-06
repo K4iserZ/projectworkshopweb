@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Cont&aacute;ctanos</title>
+        <link rel="stylesheet" href="styles.css">
+        <style type="text/css">
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center; font-weight: bold;color: white;">Informaci&oacute;n de contacto</h1><br>
+        <form style="color: white; justify-content: center; display: flex; font-family: Arial, Helvetica, sans-serif;">
+            <fieldset>
+                <legend style="font-weight: bold;font-family: Arial, Helvetica, sans-serif;">Informaci&oacute;n personal</legend><br>
+                <label>Nombre:</label>
+                <input style="width: 200px;" type="text" name="name" placeholder="Ingrese su nombre"><br><br>
+                <label>Apellidos:</label>
+                <input type="text" name="surname" placeholder="Ingresus sus apellidos"><br><br>
+                <label>DNI:</label>
+                <input type="number" name="dni" placeholder="Ingrese su DNI"><br><br>
+                <label>Correo electr&oacute;nico:</label>
+                <input type="email" name="email" placeholder="Ingrese su Email"><br><br>
+                <label>N&uacute;mero de celular</label>
+                <input type="text" name="telephone" placeholder="Ingrese su n&uacute;mero de celular"><br><br>
+                <label>Selecione su estado Civil:</label>
+                <select name="mstatus">
+                    <option>Soltero/a</option>
+                    <option>Casado/a</option>
+                    <option>Divorciado/a</option>
+                </select><br><br>
+                <label>Selecione el tipo de solicitud</label>
+                <select name="type">
+                    <option>Consulta</option>
+                    <option>Solicitud</option>
+                    <option>Reclamo</option>
+                </select><br><br>
+                <label>Asunto:</label><br>
+                <input type="text" name="subject"><br>
+                <label>Deje su mensaje:</label><br>
+                <textarea name="msj" rows="5" cols="50"></textarea><br>
+                <button style="float: left; height: 25; margin: 5px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/1200px-Yes_Check_Circle.svg.png" alt="check" width="15" height="15" style="text-align: middle;">
+                    Enviar información
+                </button>
+                <input type="button" name="clean" value="Limpiar valores" style="float: right; margin: 5px; height: 25;">
+            </fieldset>
+            <fieldset>
+
+            </fieldset>
+ 
+        </form>
+        
+    </body>
+</html>
