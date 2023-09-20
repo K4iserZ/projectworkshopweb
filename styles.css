@@ -1,0 +1,77 @@
+#header {
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+/*    max-width: 500p;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #121d30;
+}
+.menubg{
+    background-image: url("img/bgad_up.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul, ol {
+    list-style: none;
+    display: flex;
+}
+.menu li a{
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    list-style-type: none;
+    text-align: left;
+}
+/**.menu li{
+    display: inline-block;
+    text-align: center;
+}
+**/
+.menu > li{
+    float: left;
+}
+.menu li a:hover{
+    background: #108ec9b9;
+    color: aqua;
+    transition: all .3s;
+}
+.menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    list-style: none;
+}
+.menu li:hover> ul{
+    display: block;
+}
+.menu li ul li {
+    display: block;
+}
+
+.contenedorus {
+    padding: 25px;
+    display: flex;
+
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;        
+    color: white;
+  }
+.home-alert{
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 79, 161);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    color: white;
+    text-decoration: none;
+}
