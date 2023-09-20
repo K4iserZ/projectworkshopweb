@@ -9,7 +9,7 @@ body {
     background-color: #121d30;
 }
 .menubg{
-    background-image: url("img/bgad_up.jpg");
+    background-image: url("bgad_up.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
